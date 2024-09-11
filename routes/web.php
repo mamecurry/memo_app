@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('memos' MemoController::class);
+Route::resource('memos', MemoController::class);
